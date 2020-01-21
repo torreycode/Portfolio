@@ -53,3 +53,16 @@ img{
       color: white;
       text-decoration: none;
   }
+
+  a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #E8A87C;
+    border: 2px solid black;
+  }

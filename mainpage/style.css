@@ -2,6 +2,7 @@ html{
   background-color: #41B3A3;
   color: white;
 }
+
 #sideNav {
     height: 100%;
     width: 200px;
@@ -96,7 +97,7 @@ html{
 
 
   #quote{
-    margin-left: 200px;
+    margin-left: 150px;
     padding-top: 40px;
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
          -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -168,3 +169,15 @@ html{
   
   }
 
+  a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #E8A87C;
+    border: 2px solid black;
+  }

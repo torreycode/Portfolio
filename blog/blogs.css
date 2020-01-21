@@ -1,0 +1,128 @@
+html{
+  background-color: #41B3A3;
+  color: white;
+}
+#sideNav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E27D60;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border: 2px solid #C38D9E;
+  }
+  
+  #sideNav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  #sideNav a:hover {
+    color: black;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  #nav-text{
+    color: white;
+    text-align: center;
+  }
+
+  
+
+  #main-page-picture{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #personal-image{
+    width: 20%;
+    border-radius: 50%;
+    padding-top: 20px;
+    margin-left: 100px;
+  }
+
+
+#hangman{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+#hangman-picture{
+  align-items: center;
+  margin-left: 100px;
+  padding: 15px;
+}
+
+#hangmanText{
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+}
+
+#descriptionText{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 20px;;
+}
+
+#flashcards{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#flashcards-picture{
+  align-items: center;
+  margin-left: 100px;
+  padding: 35px;
+}
+
+#hangmanText-yellow{
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+}
+
+#links{
+  display: flex;
+  margin-left: 110px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#link-text{
+  padding: 10px;
+  margin: 30px;
+}
+
+a:link, a:visited {
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #E8A87C;
+  border: 2px solid black;
+}
