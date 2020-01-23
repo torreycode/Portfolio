@@ -1,6 +1,7 @@
 html{
     background-color: #41B3A3;
-    color: white;
+    color: black;
+    font-family: 'Concert One', cursive;
   }
   #sideNav {
       height: 100%;
@@ -73,6 +74,7 @@ html{
     justify-content: center;
     text-align: center;
     margin-left: 100px;
+    color: white;
   }
 
   #descriptionText{
@@ -102,6 +104,7 @@ html{
     justify-content: center;
     text-align: center;
     margin-left: 100px;
+    color: white;
   }
 
   #links{
@@ -127,4 +130,8 @@ html{
   a:hover, a:active {
     background-color: #E8A87C;
     border: 2px solid black;
+  }
+
+  img:hover{
+    background-color: rgba(0, 0, 0, 0.541);
   }

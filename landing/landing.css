@@ -1,7 +1,8 @@
 html{
     background-color: #41B3A3;
     color:white;
-   font-family: 'Courgette', cursive;
+    font-family: 'Concert One', cursive;
+
 }
 
 
@@ -9,7 +10,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -30px;
+    margin-top: -90pxpx;
     width: 50%;
 }
       
@@ -18,7 +19,7 @@ img{
   .landing-text{
       text-align: center;
       padding: 20px;
-      margin-top: 5px;
+      margin-top: 25px;
       font-size: 20px;
       z-index: 10px;
     
@@ -26,6 +27,7 @@ img{
   
   .header-sub-text{
       font-size: 20px;
+      margin-top: 25px;
   }
 
   .button{
