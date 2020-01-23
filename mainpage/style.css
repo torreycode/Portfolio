@@ -4,11 +4,19 @@ html{
   font-family: 'Concert One', cursive;
 }
 
-#hone{
-  display: flex;
 
+
+#about-me{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 260px;
 }
 
+#hone{
+  margin-left: 50px;
+}
 
 #sideNav {
     height: 100%;
@@ -45,6 +53,8 @@ html{
   #nav-text{
     color: white;
     text-align: center;
+    color: black;
+    margin-left: 20px;
   }
 
   
@@ -176,7 +186,7 @@ html{
   
   }
 
-  a:link, a:visited {
+  .navRef:link, .navRef:visited {
     color: black;
     padding: 14px 25px;
     text-align: center;
@@ -184,7 +194,56 @@ html{
     display: inline-block;
   }
   
-  a:hover, a:active {
+  .navRef:hover, .navRef:active {
     background-color: #E8A87C;
     border: 2px solid black;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none; 
+    margin-top: 390px;
+    align-items: center;
+    margin-left: -10px;
+  }
+  
+  /* Set a specific color for each brand */
+  
+
+  .fa-github {
+    background: #E27D60;
+    color: white;
+  }
+  
+  .fa-medium {
+    background: #E27D60;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #E27D60;
+    color: white;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -10px;
+  }
+
+  #nav-text2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+  }
+
+  p{
+    font-size: 24px;
+    color: white;
   }
